@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+button {
+    background-color: rebeccapurple;
+    font-family: inherit;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#container1 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#container2 {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+    padding: 1.5rem;
+    margin: 1rem;
+}
